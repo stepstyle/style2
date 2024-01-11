@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap');
+*{
+    margin: 0; 
+    padding: 0; 
+    font-family:"poppins',sans-serif";
+}
+
+body{
+    background-color: black;
+}
+.body:hover{
+background-repeat:no-repeat;
+ background-position: center;
+}
+
+#icon-med{
+    margin: 0px 120px;
+
+}
+.inputbox{
+
+font-size: 15px;
+}
+.inputbox input{
+    justify-content: right;
+    padding: 20px 20px;
+    margin: 15px;
+    font-size: 12px;
+}
+.inputbox ion-icon{
+    justify-content: right;
+    padding: 20px 20px;
+    margin: 17px;
+    font-size: px;
+}
+form{
+    width: 30%;
+    height: 50%;
+    border: 2px solid ;
+    border-radius: 20px;
+    background-color: black;
+    margin: 50px auto;
+   font-size: 15px;
+}
+
+
+h1{
+font-size: 40px;
+font-weight: bold;
+color:orange;
+text-align: center;
+
+}
+.inputbox ion-icon{ 
+    font-size: px;
+    padding: 40px  40px 70px;
+    margin-top: 90px;
+        width: 100%;
+        height: 100%;
+       right: 8px;
+        
+         font-size: 1.2rem;
+        top: 20px;
+        margin-left: 45px;
+        border: 1px solid ;
+        border-radius: 10px;
+        margin-top: 60px;
+        outline: none;
+        font-size: 20px;
+
+}
+ button{
+        width: 150px;
+        height: 40px;
+        margin-left: 150px;
+     border: 1px solid orange;
+     border-radius:60ppx;
+    color: black;
+    margin-bottom: 20px;
+    background-color: orange;
+   font-size: 30px;
+   outline: none;
+   transition: all .45s ease;
+
+ }
+ button:hover{
+
+    transform: scale(0.9);
+ }
+
+.forget{
+    justify-content: center;
+    
+  margin:35px 0; 
+ font-size: 0.85rem;
+ color:orange;
+  
+ justify-content:space-between;
+}
+.forget label { 
+display: flex;
+justify-content: center;
+}
+.forget label input {
+margin-right: 3px;
+justify-content: center;
+}
+.forget a { color:orange;
+text-decoration: none; font-weight: 600;
+}
+.forget a:hover {
+text-decoration: underline;
+}
+
+
+.register { 
+justify-content: center;
+font-size:
+0.9rem;
+color:white;
+text-align:center;
+margin: 25px 0 10px;
+}
+.register p a {
+text-decoration: none;
+color:orange;
+font-weight: 600;
+}
+.register p a:hover { 
+    text-decoration: underline;
+}
+#background-video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+     min-width: 100%;
+     min-height: 100%;
+   width: auto;
+   height: auto;
+    z-index: -1000;
+}
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin: 0px 60px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:400px) {
+    div #menu{
+      display: block;
+    }
+    .container5 ul{
+      display: block;
+     margin: 0;
+     padding: 0;
+
+     }
+     .container5 ul li{
+      display: block;
+       margin: 0;    
+      padding: 0;
+     }
+      
+     div #menu{
+        display: block;
+      }
+      form{
+          display: block;
+        position: absolute;
+        width: 400px;
+        height: 100%;
+        margin: 40px;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px 30px;
+        transition: all .45s ease;
+       padding: 0;
+  
+      }
+    
+      .container5 ul{
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        width: 280px;
+        height: 120vh;
+        align-items: center;
+        flex-direction: column;
+        padding: 150px 30px;
+        transition: all .45s ease;
+       margin: 0;
+       padding: 0;
+       top: 100%;
+       background-color: white;
+       }
+       .container5 {
+        display: block;
+         margin: 0;    
+        padding: 0;
+       }
+       .container5.open{
+        left: 0;
+       }
+       .icon{
+        display: block;
+       }
+       
+       .icon svg{
+        display: block;
+        margin: 6px;
+        background-color: azure;
+        border-radius: 30px;
+       }
+      }
+  
+
+@media screen and (max-width:720px) {
+
+ div #menu{
+    display: block;
+  }
+  .container5 ul{
+    display: block;
+   margin: 0;
+   padding: 0;
+
+   }
+   .container5 ul li{
+    display: block;
+     margin: 0;    
+    padding: 0;
+   }
+   div #menu{
+    display: block;
+  }
+  form{
+      display: block;
+    position: absolute;
+    width: 400px;
+    height: 100%;
+    margin: 40px;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 30px;
+    transition: all .45s ease;
+   padding: 0;
+
+  }
+
+  .container5 ul{
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: -100%;
+    width: 280px;
+    height: 120vh;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px 30px;
+    transition: all .45s ease;
+   margin: 0;
+   padding: 0;
+   top: 100%;
+   background-color: white;
+   }
+   .container5 {
+    display: block;
+     margin: 0;    
+    padding: 0;
+   }
+   .container5.open{
+    left: 0;
+   }
+   .icon{
+    display: block;
+   }
+   
+   .icon svg{
+    display: block;
+    margin: 6px;
+    background-color: azure;
+    border-radius: 30px;
+   }
+  }
+
+   
+  
+  @media screen and (max-width:1024px) {
+    div #menu{
+      display: block;
+    }
+    form{
+        display: block;
+      position: absolute;
+      width: 400px;
+      height: 100%;
+      margin: 40px;
+      align-items: center;
+      flex-direction: column;
+      padding: 10px 30px;
+      transition: all .45s ease;
+     padding: 0;
+
+    }
+  
+    .container5 ul{
+      display: block;
+      position: absolute;
+      top: 100%;
+      width: 280px;
+      height: 120vh;
+      align-items: center;
+      flex-direction: column;
+      padding: 150px 30px;
+      transition: all .45s ease;
+     margin: 0;
+     padding: 0;
+     top: 100%;
+     background-color: rgba(255, 166, 0, 0.001);
+     }
+
+     .container5 {
+      display: block;
+       margin: 0;    
+      padding: 0;
+     }
+     .container5.open{
+      left: 0;
+     }
+     .icon{
+      display: block;
+     }
+     
+     .icon svg{
+      display: block;
+      margin: 6px;
+      background-color: azure;
+      border-radius: 30px;
+     }
+    }

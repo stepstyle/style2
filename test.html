@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="login.css">
+    <title>Step & Style - Order Now</title>
+    <style>
+        body {
+            background-color: rgb(247, 247, 247);
+        }
+        label{
+            color: rgb(88, 58, 0);
+            margin: 7%;
+        }
+        button{
+            font-size: 150%;
+            margin: 5%;
+            border-color: orange;
+        }
+        input{
+            border-color: orange;
+        }
+        #checkbox{
+            border-color: orange;
+        }
+        textarea{
+            padding: 0;
+            margin:  0% 5%;
+            background-color: rgb(238, 220, 187);
+            border-color: orange;
+        }
+        fieldset{
+            background-color: rgb(255, 255, 255);
+        }
+        #tax-input{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <header>  
+            <a style="color: black; margin: 1%;" href="#" class="logo"  >step&style</a>
+            <br>
+            <section>
+                <ul>
+                    <li><a href="./indwex1.html">home</a></li>
+                    <li><a href="mmm.html">product</a></li>
+                    <li><a href="About us.html">About</a></li>
+                    <li><a href="./content.html">contact</a></li>
+                    <li><a href="reviw.html">Review</a></li>
+                    <li><a href="map.html">Sitemap</a></li>
+                    <li><a href="orderNow.html">order now</a></li>
+                    <div class="icon">
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" ><path d="M19.023 16.977a35.13 35.13 0 0 1-1.367-1.384c-.372-.378-.596-.653-.596-.653l-2.8-1.337A6.962 6.962 0 0 0 16 9c0-3.859-3.14-7-7-7S2 5.141 2 9s3.14 7 7 7c1.763 0 3.37-.66 4.603-1.739l1.337 2.8s.275.224.653.596c.387.363.896.854 1.384 1.367l1.358 1.392.604.646 2.121-2.121-.646-.604c-.379-.372-.885-.866-1.391-1.36zM9 14c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z"></path></svg></a>
+                        <a href="#"><svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.521 9.683A2.004 2.004 0 0 0 9.7 17H18v-2H9.7l-.728-2H18c.4 0 .762-.238.919-.606l3-7A.998.998 0 0 0 21 4z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></a>
+                        <a href="login.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 24" ><path d="M12 2a5 5 0 1 0 5 5 5 5 0 0 0-5-5zm0 8a3 3 0 1 1 3-3 3 3 0 0 1-3 3zm9 11v-1a7 7 0 0 0-7-7h-4a7 7 0 0 0-7 7v1h2v-1a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v1z"></path></svg></a>
+                    </div>
+                </ul>
+            </section>
+            <div id="menu">&#9776</div>
+        </header> 
+    </div>
+    <video style="width: 100%; height: 100%;" id="background-video" autoplay loop muted><source src="./pexels-rodnae-productions-5700368 (2160p).mp4" type="video/mp4"></source></video>
+    <fieldset>
+        <h1 style="color: orange;">Welcome to the Step & Style store. Order Now!</h1>
+        <hr>
+        <h1 style="color: orange;" id="current-date-time"></h1>
+        <hr>
+
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" placeholder="Type your name here">
+        <span id="error-name" style="color: red;" class="error-message"></span><br><br>
+
+        <label for="phone">Enter your phone number:</label>
+        <input type="text" id="phone" placeholder="Type your phone number here">
+        <span id="error-phone" style="color: red;" class="error-message"></span><br><br>
+
+        <label for="email">Enter your email:</label>
+        <input type="text" id="email" placeholder="Type your email here">
+        <span id="error-email" style="color: red;" class="error-message"></span><br><br>
+
+        <div>
+            <label>Choose the payment method:</label>
+            <label for="inbot1"><span style="color: rgb(0, 157, 255);">Cash</span></label>
+            <input type="radio" id="inbot1" name="inbots">
+            <label for="inbot2"><span style="color: rgb(0, 157, 255);">Visa</span></label>
+            <input type="radio" id="inbot2" name="inbots">
+            <span id="error-inbots" style="color: red;" class="error-message"></span><br><br>
+        </div>
+
+        <label>Choose your favorite product:</label>
+        <label for="baqaq"><span style="color: rgb(0, 157, 255);">Shoes</span></label>
+        <input type="checkbox" id="baqaq" name="baqaq" value="Shoes">
+        <span id="error-baqaq" style="color: red;" class="error-message"></span>
+
+        <label for="shows"><span style="color: rgb(0, 157, 255);">Bags</span></label>
+        <input type="checkbox" id="shows" name="shows" value="Bags">
+        <span id="error-shows" style="color: red;"></span><br><br>
+
+        <label for="product-value">Enter the value of your purchases:</label>
+        <input type="text" id="product-value" placeholder="Enter product value" oninput="calculateTax()">
+        <span id="error-product-value" style="color: red;" class="error-message"></span><br><br>
+
+        <div id="tax-input">
+            <label for="tax">Tax Value:</label>
+            <span id="calculated-tax"></span>
+        </div>
+
+        <button onclick="submitData();" value="Order Now!">Order Now!</button>
+
+        <p id="error-message" class="error-message"></p>
+
+        <div id="submitted-info"></div>
+
+        <textarea id="output-textarea" readonly rows="10" cols="60"></textarea>
+
+        <script>
+            var now = new Date();
+            document.getElementById("current-date-time").innerHTML = now.toLocaleString();
+
+            function calculateTax() {
+                var productValue = parseFloat(document.getElementById("product-value").value);
+                var taxInput = document.getElementById("tax-input");
+                var calculatedTax = document.getElementById("calculated-tax");
+
+                if (!isNaN(productValue) && productValue > 0) {
+                    var taxValue = productValue * 0.16;
+                    taxInput.style.display = "block";
+                    calculatedTax.innerText = taxValue.toFixed(2);
+                } else {
+                    taxInput.style.display = "none";
+                    calculatedTax.innerText = "";
+                }
+            }
+
+            function submitData() {
+                clearErrorMessages();
+
+                var name = document.getElementById("name").value;
+                var phone = document.getElementById("phone").value;
+                var email = document.getElementById("email").value;
+                var baqaqChecked = document.getElementById("baqaq").checked;
+                var showsChecked = document.getElementById("shows").checked;
+
+                var productValue = parseFloat(document.getElementById("product-value").value);
+
+                if (name === "") {
+                    showError("error-name", "Please enter your name.");
+                }
+
+                if (phone === "" || !/^\d{10}$/.test(phone)) {
+                    showError("error-phone", "Please enter a valid 10-digit phone number.");
+                }
+
+                if (email === "" || !isValidEmail(email)) {
+                    showError("error-email", "Please enter a valid email address.");
+                }
+
+                var inbot1Checked = document.getElementById("inbot1").checked;
+                var inbot2Checked = document.getElementById("inbot2").checked;
+
+                if (!inbot1Checked && !inbot2Checked) {
+                    showError("error-inbots", "Please choose one of the Inbots.");
+                }
+
+                if (!baqaqChecked && !showsChecked) {
+                    showError("error-baqaq", "Please select at least one bot.");
+                }
+
+                if (isNaN(productValue) || productValue <= 0) {
+                    showError("error-product-value", "Please enter a valid product value.");
+                }
+
+                if (document.querySelectorAll('.error-message:not(:empty)').length > 0) {
+                    return;
+                }
+
+                var selectedOptions = [];
+
+                if (baqaqChecked) {
+                    selectedOptions.push("Choz");
+                }
+
+                if (showsChecked) {
+                    selectedOptions.push("Baq");
+                }
+
+                var taxValue = parseFloat(document.getElementById("calculated-tax").innerText) || 0;
+                var totalAmount = productValue + taxValue;
+
+                var orderSummary = "Name: " + name + "\n" +
+                                   "Phone: " + phone + "\n" +
+                                   "Email: " + email + "\n" +
+                                   "Inbot Choice: " + (inbot1Checked ? "Cash" : "Visa") + "\n" +
+                                   "Selected Options: " + (selectedOptions.length > 0 ? selectedOptions.join(", ") : "None") + "\n" +
+                                   "Product Value: " + productValue.toFixed(2) + "\n" +
+                                   "Tax Value: " + (taxValue.toFixed(2) || "Not provided") + "\n" +
+                                   "Total Amount (including tax): " + totalAmount.toFixed(2);
+
+                document.getElementById("output-textarea").value = orderSummary;
+
+                clearInputFields();
+                document.getElementById("tax-input").style.display = "none";
+                document.getElementById("inbot1").checked = false;
+                document.getElementById("inbot2").checked = false;
+                document.getElementById("baqaq").checked = false;
+                document.getElementById("shows").checked = false;
+            }
+
+            function showError(elementId, message) {
+                var errorElement = document.getElementById(elementId);
+                errorElement.innerText = message;
+            }
+
+            function clearErrorMessages() {
+                var errorElements = document.querySelectorAll('.error-message');
+                errorElements.forEach(function (element) {
+                    element.innerText = '';
+                });
+            }
+
+            function clearInputFields() {
+                var inputElements = document.querySelectorAll('input, select');
+                inputElements.forEach(function (element) {
+                    if (element.type === 'checkbox' || element.type === 'radio') {
+                        element.checked = false;
+                    } else {
+                        element.value = '';
+                    }
+                });
+            }
+
+            function isValidEmail(email) {
+                var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                return emailRegex.test(email);
+            }
+        </script>
+    </fieldset>
+</body>
+</html>

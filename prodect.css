@@ -1,0 +1,85 @@
+
+
+.select button {
+    justify-items: center;
+    justify-content: center;
+    background-color: white;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:400px) {
+    div #menu{
+      display: block;
+    }
+    .container ul{
+      display: block;
+     margin: 0;
+     padding: 0;
+
+     }
+     .container ul li{
+      display: block;
+       margin: 0;    
+      padding: 0;
+     }
+      
+
+}
+
+@media screen and (max-width:720px) {
+
+ div #menu{
+    display: block;
+  }
+  .container3 ul{
+    display: block;
+   margin: 0;
+   padding: 0;
+
+   }
+   .container3 ul li{
+    display: block;
+     margin: 0;    
+    padding: 0;
+   }
+   
+  }
+  @media screen and (max-width:1024px) {
+    div #menu{
+      display: block;
+    }
+    
+  
+    .container3 ul{
+      display: block;
+      position: absolute;
+      top: 100%;
+      width: 280px;
+      height: 120vh;
+      align-items: center;
+      flex-direction: column;
+      padding: 150px 30px;
+      transition: all .45s ease;
+     margin: 0;
+     padding: 0;
+     background-color: rgba(255, 255, 255, 0.27);
+     }
+     .container3 {
+      display: block;
+       margin: 0;    
+      padding: 0;
+     }
+     .container3.open{
+      left: 0;
+     }
+     .icon{
+      display: block;
+     }
+     
+     .icon svg{
+      display: block;
+      margin: 6px;
+      background-color: azure;
+      border-radius: 30px;
+     }
+    }
